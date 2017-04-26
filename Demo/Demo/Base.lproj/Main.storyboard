@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="r7f-yG-t96">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="r7f-yG-t96">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -31,13 +31,13 @@
                                     <color key="tintColor" red="0.0" green="0.0" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </segmentedControl>
                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wFj-cQ-YBW">
-                                    <rect key="frame" x="315" y="46" width="51" height="31"/>
+                                    <rect key="frame" x="11" y="46" width="51" height="31"/>
                                     <connections>
                                         <action selector="sectionTitleSwitchChange:" destination="wMf-oo-bbR" eventType="valueChanged" id="R0Q-en-WKg"/>
                                     </connections>
                                 </switch>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="section title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fH-h3-OuX">
-                                    <rect key="frame" x="225" y="52.5" width="80" height="18"/>
+                                    <rect key="frame" x="70" y="52" width="80" height="18"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                     <color key="textColor" red="0.0" green="0.0" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
@@ -45,8 +45,8 @@
                             </subviews>
                             <constraints>
                                 <constraint firstItem="keJ-kn-yV4" firstAttribute="top" secondItem="8oB-Sh-6TW" secondAttribute="top" constant="10" id="2Iq-bW-9Al"/>
-                                <constraint firstItem="wFj-cQ-YBW" firstAttribute="leading" secondItem="0fH-h3-OuX" secondAttribute="trailing" constant="10" id="GS4-Pa-OdV"/>
-                                <constraint firstItem="wFj-cQ-YBW" firstAttribute="trailing" secondItem="keJ-kn-yV4" secondAttribute="trailing" id="OtF-VG-exa"/>
+                                <constraint firstItem="wFj-cQ-YBW" firstAttribute="leading" secondItem="keJ-kn-yV4" secondAttribute="leading" id="SgJ-TR-QGV"/>
+                                <constraint firstItem="0fH-h3-OuX" firstAttribute="leading" secondItem="wFj-cQ-YBW" secondAttribute="trailing" constant="10" id="UxB-63-gKH"/>
                                 <constraint firstItem="wFj-cQ-YBW" firstAttribute="top" secondItem="keJ-kn-yV4" secondAttribute="bottom" constant="8" id="d3J-Lb-mbk"/>
                                 <constraint firstItem="0fH-h3-OuX" firstAttribute="centerY" secondItem="wFj-cQ-YBW" secondAttribute="centerY" id="hBn-b1-pay"/>
                                 <constraint firstAttribute="centerX" secondItem="keJ-kn-yV4" secondAttribute="centerX" id="zzq-bc-oS0"/>
